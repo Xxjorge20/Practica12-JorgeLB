@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/BPeliculas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Peliculas" />
+    <item
+        android:id="@+id/BAnadir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Añadir Pelicula" />
+    <item
+        android:id="@+id/BApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="APP" />
+    <item
+        android:id="@+id/BSalir"
+        android:icon="@drawable/exit_app"
+        android:title="SALIR"
+        app:showAsAction="ifRoom"/>
+</menu>
